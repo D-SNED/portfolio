@@ -69,3 +69,25 @@ a:hover {
 #intro h2 {
   font-size: 4rem;
 }
+
+#contact {
+  background-color: var(--plum);
+  text-align: center;
+  margin: 0 auto;
+  padding: 5rem;
+}
+
+footer {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 3rem;
+}
