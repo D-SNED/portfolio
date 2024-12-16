@@ -38,6 +38,7 @@ h3 {
 
 a {
   color: var(--magenta);
+  text-decoration: none;
 }
 
 a:hover {
@@ -94,6 +95,7 @@ nav a {
   background-color: var(--magenta);
   padding: 0.5rem;
   border-radius: 5px;
+  color: var(--white);
 }
 
 .button:hover {
@@ -102,7 +104,9 @@ nav a {
 }
 
 #intro {
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 #intro p {
@@ -127,14 +131,23 @@ nav a {
 }
 
 #contact {
-  background-color: var(--plum);
+  width: 400px;
   text-align: center;
   margin: 0 auto;
-  padding: 5rem;
+  padding: 3rem 0;
+}
+
+.contact-container {
+  background-color: var(--plum);
+}
+
+#contact p:last-child {
+  margin-top: 3rem;
 }
 
 footer {
   text-align: center;
+  padding: 4rem 0;
 }
 
 footer ul {
