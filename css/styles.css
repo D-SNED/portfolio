@@ -189,10 +189,6 @@ nav a {
   background-color: var(--plum);
 }
 
-#contact p:last-child {
-  margin-top: 3rem;
-}
-
 .gradient {
   background: linear-gradient(
     90deg,
