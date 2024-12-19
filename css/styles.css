@@ -52,7 +52,7 @@ nav {
   padding: 3rem 2rem;
 }
 
-nav h1 {
+nav h1 a{
   font-family: var(--sans);
 }
 
@@ -174,7 +174,8 @@ nav a {
   border-left: 1px solid var(--aqua);
   border-top: 1px solid var(--aqua);
   border-radius: 25px;
-  max-width: 670px;
+  max-width: 100%;
+  height: auto;
 
 }
 
@@ -227,6 +228,8 @@ footer ul {
     #projects img {
       grid-column: 1/6;
       grid-row: 1/2;
+      max-width: 100%;
+      height: auto;
     }
     .text {
       grid-column: 5/11;
