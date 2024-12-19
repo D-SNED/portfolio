@@ -214,11 +214,6 @@ footer ul {
   font-size: 3rem;
 }
 
-/* .profile {
-    transform: rotate(-90deg);
-    order: 2;
-} */
-
 @media (min-width: 800px) {
 
     #projects {
